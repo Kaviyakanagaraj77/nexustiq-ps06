@@ -1,0 +1,907 @@
+{
+  "customer_id": "CUST-1004",
+  "name": "Ramesh Iyer",
+  "account_opened": "2021-06-15",
+  "transactions": [
+    {
+      "id": "CUST-1004-0001",
+      "date": "2025-03-01",
+      "time": "08:50",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 45000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1004-0002",
+      "date": "2025-03-02",
+      "time": "13:28",
+      "description": "Payment to Airtel Postpaid",
+      "payee": "Airtel Postpaid",
+      "amount": 2330.57,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0003",
+      "date": "2025-03-03",
+      "time": "21:14",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 12600.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0004",
+      "date": "2025-03-04",
+      "time": "12:27",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 1485.75,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0005",
+      "date": "2025-03-07",
+      "time": "17:59",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1403.91,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0006",
+      "date": "2025-03-09",
+      "time": "13:06",
+      "description": "Payment to BookMyShow",
+      "payee": "BookMyShow",
+      "amount": 2936.44,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0007",
+      "date": "2025-03-11",
+      "time": "16:35",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 2869.43,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0008",
+      "date": "2025-03-14",
+      "time": "20:42",
+      "description": "Payment to Airtel Postpaid",
+      "payee": "Airtel Postpaid",
+      "amount": 559.47,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0009",
+      "date": "2025-03-18",
+      "time": "16:19",
+      "description": "Payment to Airtel Postpaid",
+      "payee": "Airtel Postpaid",
+      "amount": 322.34,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0010",
+      "date": "2025-03-21",
+      "time": "17:30",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 1849.83,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0011",
+      "date": "2025-03-23",
+      "time": "08:48",
+      "description": "Payment to BookMyShow",
+      "payee": "BookMyShow",
+      "amount": 1322.88,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0012",
+      "date": "2025-03-25",
+      "time": "16:59",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 2854.19,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0013",
+      "date": "2025-03-28",
+      "time": "11:44",
+      "description": "Payment to Airtel Postpaid",
+      "payee": "Airtel Postpaid",
+      "amount": 1045.95,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0014",
+      "date": "2025-03-30",
+      "time": "20:09",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1325.93,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0016",
+      "date": "2025-04-01",
+      "time": "08:47",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 2632.25,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0015",
+      "date": "2025-04-01",
+      "time": "16:42",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 45000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1004-0017",
+      "date": "2025-04-03",
+      "time": "15:13",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 12600.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0018",
+      "date": "2025-04-04",
+      "time": "11:46",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 1292.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0019",
+      "date": "2025-04-06",
+      "time": "09:10",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 2147.35,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0020",
+      "date": "2025-04-08",
+      "time": "14:42",
+      "description": "Payment to BookMyShow",
+      "payee": "BookMyShow",
+      "amount": 2407.8,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0021",
+      "date": "2025-04-11",
+      "time": "10:48",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 1630.85,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0022",
+      "date": "2025-04-13",
+      "time": "17:43",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1590.21,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0023",
+      "date": "2025-04-15",
+      "time": "10:25",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 2384.89,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0024",
+      "date": "2025-04-20",
+      "time": "19:08",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 1159.75,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0025",
+      "date": "2025-04-22",
+      "time": "14:47",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1249.21,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0026",
+      "date": "2025-04-25",
+      "time": "15:35",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 1423.69,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0027",
+      "date": "2025-04-27",
+      "time": "13:01",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 391.45,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0028",
+      "date": "2025-04-29",
+      "time": "16:25",
+      "description": "Payment to BookMyShow",
+      "payee": "BookMyShow",
+      "amount": 3038.07,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0029",
+      "date": "2025-05-01",
+      "time": "18:40",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 45000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1004-0030",
+      "date": "2025-05-02",
+      "time": "09:51",
+      "description": "Payment to BookMyShow",
+      "payee": "BookMyShow",
+      "amount": 1506.86,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0031",
+      "date": "2025-05-03",
+      "time": "16:29",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 12600.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0032",
+      "date": "2025-05-04",
+      "time": "10:27",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 445.24,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0033",
+      "date": "2025-05-06",
+      "time": "18:21",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 413.47,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0034",
+      "date": "2025-05-09",
+      "time": "15:32",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 405.87,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0035",
+      "date": "2025-05-11",
+      "time": "10:06",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1326.18,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0036",
+      "date": "2025-05-13",
+      "time": "19:48",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 731.22,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0037",
+      "date": "2025-05-16",
+      "time": "14:48",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 3336.83,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0038",
+      "date": "2025-05-18",
+      "time": "20:40",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 1653.83,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0039",
+      "date": "2025-05-20",
+      "time": "17:19",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 378.76,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0040",
+      "date": "2025-05-23",
+      "time": "11:29",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 338.18,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0041",
+      "date": "2025-05-25",
+      "time": "08:41",
+      "description": "Payment to BookMyShow",
+      "payee": "BookMyShow",
+      "amount": 1385.27,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0043",
+      "date": "2025-06-01",
+      "time": "14:58",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 2094.1,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0042",
+      "date": "2025-06-01",
+      "time": "16:38",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 45000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1004-0045",
+      "date": "2025-06-03",
+      "time": "07:28",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 2176.77,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0044",
+      "date": "2025-06-03",
+      "time": "19:36",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 12600.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0046",
+      "date": "2025-06-06",
+      "time": "15:41",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 3440.99,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0047",
+      "date": "2025-06-08",
+      "time": "15:33",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 2520.53,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0048",
+      "date": "2025-06-10",
+      "time": "13:26",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1399.05,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0049",
+      "date": "2025-06-13",
+      "time": "08:21",
+      "description": "Payment to Airtel Postpaid",
+      "payee": "Airtel Postpaid",
+      "amount": 2152.92,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0050",
+      "date": "2025-06-15",
+      "time": "18:54",
+      "description": "Payment to Airtel Postpaid",
+      "payee": "Airtel Postpaid",
+      "amount": 1444.99,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0051",
+      "date": "2025-06-17",
+      "time": "08:37",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 3075.49,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0052",
+      "date": "2025-06-20",
+      "time": "09:38",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1189.28,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0053",
+      "date": "2025-06-22",
+      "time": "17:50",
+      "description": "Payment to BookMyShow",
+      "payee": "BookMyShow",
+      "amount": 1187.1,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0054",
+      "date": "2025-06-24",
+      "time": "17:42",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 2394.89,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0055",
+      "date": "2025-06-27",
+      "time": "09:13",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 211.07,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0056",
+      "date": "2025-06-29",
+      "time": "09:04",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 793.22,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0057",
+      "date": "2025-07-01",
+      "time": "11:54",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 45000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1004-0058",
+      "date": "2025-07-01",
+      "time": "17:21",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 2732.43,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0059",
+      "date": "2025-07-03",
+      "time": "21:49",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 12600.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0060",
+      "date": "2025-07-04",
+      "time": "09:53",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 1412.01,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0061",
+      "date": "2025-07-06",
+      "time": "18:28",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 2860.3,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0062",
+      "date": "2025-07-08",
+      "time": "14:39",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 2415.82,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0063",
+      "date": "2025-07-11",
+      "time": "15:15",
+      "description": "Payment to Airtel Postpaid",
+      "payee": "Airtel Postpaid",
+      "amount": 2775.73,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0064",
+      "date": "2025-07-13",
+      "time": "12:43",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 3178.31,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0085",
+      "date": "2025-07-14",
+      "time": "18:48",
+      "description": "Transfer to Kavita Enterprises",
+      "payee": "Kavita Enterprises",
+      "amount": 42000,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0086",
+      "date": "2025-07-15",
+      "time": "12:08",
+      "description": "Transfer to Kavita Enterprises",
+      "payee": "Kavita Enterprises",
+      "amount": 38500,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0087",
+      "date": "2025-07-16",
+      "time": "07:22",
+      "description": "Transfer to Kavita Enterprises",
+      "payee": "Kavita Enterprises",
+      "amount": 45000,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0088",
+      "date": "2025-07-16",
+      "time": "15:21",
+      "description": "Transfer to Kavita Enterprises",
+      "payee": "Kavita Enterprises",
+      "amount": 31000,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0089",
+      "date": "2025-07-18",
+      "time": "20:41",
+      "description": "Transfer to Kavita Enterprises",
+      "payee": "Kavita Enterprises",
+      "amount": 47500,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0090",
+      "date": "2025-07-19",
+      "time": "09:53",
+      "description": "Transfer to Kavita Enterprises",
+      "payee": "Kavita Enterprises",
+      "amount": 39900,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0065",
+      "date": "2025-07-20",
+      "time": "09:52",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 2756.72,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0066",
+      "date": "2025-07-22",
+      "time": "07:41",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 613.64,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0067",
+      "date": "2025-07-25",
+      "time": "18:54",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 2007.71,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0068",
+      "date": "2025-07-27",
+      "time": "11:28",
+      "description": "Payment to BookMyShow",
+      "payee": "BookMyShow",
+      "amount": 1104.96,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0069",
+      "date": "2025-08-01",
+      "time": "09:53",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 45000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1004-0070",
+      "date": "2025-08-01",
+      "time": "21:01",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 2885.96,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0072",
+      "date": "2025-08-03",
+      "time": "12:14",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 939.86,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0071",
+      "date": "2025-08-03",
+      "time": "13:03",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 12600.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0073",
+      "date": "2025-08-05",
+      "time": "19:09",
+      "description": "Payment to BookMyShow",
+      "payee": "BookMyShow",
+      "amount": 2961.24,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0074",
+      "date": "2025-08-08",
+      "time": "18:53",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 3223.28,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0075",
+      "date": "2025-08-10",
+      "time": "21:05",
+      "description": "Payment to Airtel Postpaid",
+      "payee": "Airtel Postpaid",
+      "amount": 1721.52,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0076",
+      "date": "2025-08-12",
+      "time": "08:49",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 2947.13,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0077",
+      "date": "2025-08-15",
+      "time": "13:40",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 558.19,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0078",
+      "date": "2025-08-17",
+      "time": "16:34",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 360.4,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0079",
+      "date": "2025-08-19",
+      "time": "11:27",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 2076.41,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0080",
+      "date": "2025-08-22",
+      "time": "09:42",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 955.89,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0081",
+      "date": "2025-08-24",
+      "time": "15:34",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 3415.09,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0082",
+      "date": "2025-08-26",
+      "time": "20:30",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 2006.41,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0083",
+      "date": "2025-08-29",
+      "time": "18:01",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 3436.48,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1004-0084",
+      "date": "2025-08-31",
+      "time": "19:37",
+      "description": "Payment to BookMyShow",
+      "payee": "BookMyShow",
+      "amount": 1305.09,
+      "channel": "UPI",
+      "type": "debit"
+    }
+  ]
+}

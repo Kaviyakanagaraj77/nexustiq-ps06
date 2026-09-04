@@ -1,0 +1,797 @@
+{
+  "customer_id": "CUST-1003",
+  "name": "Farida Sheikh",
+  "account_opened": "2021-06-15",
+  "transactions": [
+    {
+      "id": "CUST-1003-0001",
+      "date": "2025-03-01",
+      "time": "15:41",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 91000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1003-0002",
+      "date": "2025-03-02",
+      "time": "17:52",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 757.99,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0003",
+      "date": "2025-03-03",
+      "time": "14:05",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 25480.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0004",
+      "date": "2025-03-04",
+      "time": "20:10",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 1266.58,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0005",
+      "date": "2025-03-07",
+      "time": "20:48",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1809.82,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0006",
+      "date": "2025-03-09",
+      "time": "12:07",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 445.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0007",
+      "date": "2025-03-14",
+      "time": "17:55",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 2913.51,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0008",
+      "date": "2025-03-16",
+      "time": "16:48",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 331.58,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0009",
+      "date": "2025-03-18",
+      "time": "11:35",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 2695.97,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0010",
+      "date": "2025-03-21",
+      "time": "08:01",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 1617.69,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0011",
+      "date": "2025-03-25",
+      "time": "15:00",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 2527.77,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0012",
+      "date": "2025-03-28",
+      "time": "14:07",
+      "description": "Payment to Reliance Digital",
+      "payee": "Reliance Digital",
+      "amount": 902.75,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0013",
+      "date": "2025-03-30",
+      "time": "15:45",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 1819.56,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0014",
+      "date": "2025-04-01",
+      "time": "11:26",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 91000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1003-0015",
+      "date": "2025-04-01",
+      "time": "13:12",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 966.5,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0016",
+      "date": "2025-04-03",
+      "time": "21:38",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 25480.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0017",
+      "date": "2025-04-04",
+      "time": "19:50",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 3044.49,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0018",
+      "date": "2025-04-08",
+      "time": "11:46",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 1045.03,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0019",
+      "date": "2025-04-11",
+      "time": "20:09",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 2092.74,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0020",
+      "date": "2025-04-13",
+      "time": "14:59",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 1306.17,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0021",
+      "date": "2025-04-15",
+      "time": "16:24",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 3435.6,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0022",
+      "date": "2025-04-18",
+      "time": "18:58",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 296.22,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0023",
+      "date": "2025-04-20",
+      "time": "14:02",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 3461.19,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0024",
+      "date": "2025-04-22",
+      "time": "20:54",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 1262.18,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0025",
+      "date": "2025-04-25",
+      "time": "18:09",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 3199.98,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0026",
+      "date": "2025-04-27",
+      "time": "14:50",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 3399.36,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0027",
+      "date": "2025-05-01",
+      "time": "12:39",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 91000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1003-0028",
+      "date": "2025-05-02",
+      "time": "20:43",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 419.06,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0029",
+      "date": "2025-05-03",
+      "time": "20:34",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 25480.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0030",
+      "date": "2025-05-04",
+      "time": "20:34",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 2249.78,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0031",
+      "date": "2025-05-06",
+      "time": "10:47",
+      "description": "Payment to Reliance Digital",
+      "payee": "Reliance Digital",
+      "amount": 936.48,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0032",
+      "date": "2025-05-09",
+      "time": "14:10",
+      "description": "Payment to Reliance Digital",
+      "payee": "Reliance Digital",
+      "amount": 2697.24,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0033",
+      "date": "2025-05-11",
+      "time": "11:22",
+      "description": "Payment to Reliance Digital",
+      "payee": "Reliance Digital",
+      "amount": 304.07,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0034",
+      "date": "2025-05-13",
+      "time": "16:43",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 968.06,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0035",
+      "date": "2025-05-16",
+      "time": "16:43",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 736.48,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0036",
+      "date": "2025-05-18",
+      "time": "17:16",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 629.44,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0037",
+      "date": "2025-05-20",
+      "time": "21:18",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 181.48,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0038",
+      "date": "2025-05-23",
+      "time": "16:19",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 397.44,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0039",
+      "date": "2025-05-25",
+      "time": "20:19",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 2462.55,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0040",
+      "date": "2025-05-27",
+      "time": "10:24",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 3008.67,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0041",
+      "date": "2025-05-30",
+      "time": "07:53",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 1141.17,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0042",
+      "date": "2025-06-01",
+      "time": "17:25",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 91000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1003-0043",
+      "date": "2025-06-01",
+      "time": "21:38",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 3047.98,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0045",
+      "date": "2025-06-03",
+      "time": "16:51",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 2748.73,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0044",
+      "date": "2025-06-03",
+      "time": "18:31",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 25480.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0046",
+      "date": "2025-06-06",
+      "time": "17:48",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 786.94,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0047",
+      "date": "2025-06-08",
+      "time": "17:06",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 2430.86,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0048",
+      "date": "2025-06-13",
+      "time": "16:23",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 2791.85,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0049",
+      "date": "2025-06-15",
+      "time": "18:26",
+      "description": "Payment to Reliance Digital",
+      "payee": "Reliance Digital",
+      "amount": 3197.25,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0050",
+      "date": "2025-06-17",
+      "time": "15:32",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 2784.82,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0051",
+      "date": "2025-06-22",
+      "time": "19:18",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 3212.06,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0052",
+      "date": "2025-06-24",
+      "time": "08:09",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 2844.18,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0053",
+      "date": "2025-06-27",
+      "time": "20:51",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 3031.47,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0054",
+      "date": "2025-06-29",
+      "time": "11:34",
+      "description": "Payment to Reliance Digital",
+      "payee": "Reliance Digital",
+      "amount": 2798.78,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0055",
+      "date": "2025-07-01",
+      "time": "08:29",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 91000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1003-0056",
+      "date": "2025-07-01",
+      "time": "20:40",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 2402.34,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0057",
+      "date": "2025-07-03",
+      "time": "12:06",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 25480.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0058",
+      "date": "2025-07-04",
+      "time": "21:39",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 233.83,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0059",
+      "date": "2025-07-06",
+      "time": "21:44",
+      "description": "Payment to Reliance Digital",
+      "payee": "Reliance Digital",
+      "amount": 2278.6,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0060",
+      "date": "2025-07-08",
+      "time": "07:19",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 540.86,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0061",
+      "date": "2025-07-13",
+      "time": "13:29",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 3122.32,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0062",
+      "date": "2025-07-15",
+      "time": "16:47",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 2483.22,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0063",
+      "date": "2025-07-18",
+      "time": "16:26",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 2343.99,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0064",
+      "date": "2025-07-22",
+      "time": "14:15",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1391.28,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0065",
+      "date": "2025-07-27",
+      "time": "07:25",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1380.57,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0066",
+      "date": "2025-07-29",
+      "time": "08:42",
+      "description": "Payment to Reliance Digital",
+      "payee": "Reliance Digital",
+      "amount": 3329.19,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0068",
+      "date": "2025-08-01",
+      "time": "10:08",
+      "description": "Payment to Reliance Digital",
+      "payee": "Reliance Digital",
+      "amount": 319.44,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0067",
+      "date": "2025-08-01",
+      "time": "10:41",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 91000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1003-0069",
+      "date": "2025-08-03",
+      "time": "19:36",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 25480.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0070",
+      "date": "2025-08-03",
+      "time": "20:55",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 843.98,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0071",
+      "date": "2025-08-05",
+      "time": "11:54",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 2791.96,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0072",
+      "date": "2025-08-12",
+      "time": "09:00",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 518.25,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0073",
+      "date": "2025-08-15",
+      "time": "09:16",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 2122.66,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0074",
+      "date": "2025-08-17",
+      "time": "18:04",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1560.22,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0075",
+      "date": "2025-08-19",
+      "time": "14:32",
+      "description": "Payment to Local Kirana Store",
+      "payee": "Local Kirana Store",
+      "amount": 1869.35,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0076",
+      "date": "2025-08-22",
+      "time": "14:41",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 295.27,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0077",
+      "date": "2025-08-26",
+      "time": "17:06",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 2988.45,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0078",
+      "date": "2025-08-29",
+      "time": "12:38",
+      "description": "Payment to Big Bazaar Retail",
+      "payee": "Big Bazaar Retail",
+      "amount": 396.19,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1003-0079",
+      "date": "2025-08-31",
+      "time": "13:38",
+      "description": "Payment to Apollo Pharmacy",
+      "payee": "Apollo Pharmacy",
+      "amount": 1071.3,
+      "channel": "NetBanking",
+      "type": "debit"
+    }
+  ]
+}

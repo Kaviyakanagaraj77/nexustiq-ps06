@@ -1,0 +1,857 @@
+{
+  "customer_id": "CUST-1005",
+  "name": "Neha Kapoor",
+  "account_opened": "2021-06-15",
+  "transactions": [
+    {
+      "id": "CUST-1005-0001",
+      "date": "2025-03-01",
+      "time": "19:08",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 120000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1005-0002",
+      "date": "2025-03-02",
+      "time": "07:50",
+      "description": "Payment to Uber Trip",
+      "payee": "Uber Trip",
+      "amount": 273.9,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0003",
+      "date": "2025-03-03",
+      "time": "10:56",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 33600.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0004",
+      "date": "2025-03-04",
+      "time": "11:02",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1876.54,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0005",
+      "date": "2025-03-07",
+      "time": "20:41",
+      "description": "Payment to Caf\u00e9 Coffee Day",
+      "payee": "Caf\u00e9 Coffee Day",
+      "amount": 1108.47,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0006",
+      "date": "2025-03-09",
+      "time": "21:25",
+      "description": "Payment to Ola Trip",
+      "payee": "Ola Trip",
+      "amount": 2827.8,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0007",
+      "date": "2025-03-11",
+      "time": "14:44",
+      "description": "Payment to Uber Trip",
+      "payee": "Uber Trip",
+      "amount": 1285.77,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0008",
+      "date": "2025-03-14",
+      "time": "18:27",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 1043.51,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0009",
+      "date": "2025-03-16",
+      "time": "15:18",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 3483.58,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0010",
+      "date": "2025-03-18",
+      "time": "11:28",
+      "description": "Payment to Ola Trip",
+      "payee": "Ola Trip",
+      "amount": 1248.53,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0011",
+      "date": "2025-03-21",
+      "time": "12:28",
+      "description": "Payment to Uber Trip",
+      "payee": "Uber Trip",
+      "amount": 708.26,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0012",
+      "date": "2025-03-23",
+      "time": "11:40",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 2209.75,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0013",
+      "date": "2025-03-30",
+      "time": "07:09",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 1510.8,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0015",
+      "date": "2025-04-01",
+      "time": "10:49",
+      "description": "Payment to Uber Trip",
+      "payee": "Uber Trip",
+      "amount": 266.58,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0014",
+      "date": "2025-04-01",
+      "time": "20:38",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 120000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1005-0016",
+      "date": "2025-04-03",
+      "time": "17:23",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 33600.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0017",
+      "date": "2025-04-04",
+      "time": "17:28",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 258.49,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0018",
+      "date": "2025-04-08",
+      "time": "13:20",
+      "description": "Payment to Ola Trip",
+      "payee": "Ola Trip",
+      "amount": 2072.64,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0019",
+      "date": "2025-04-11",
+      "time": "18:11",
+      "description": "Payment to Caf\u00e9 Coffee Day",
+      "payee": "Caf\u00e9 Coffee Day",
+      "amount": 3367.74,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0020",
+      "date": "2025-04-13",
+      "time": "11:49",
+      "description": "Payment to Uber Trip",
+      "payee": "Uber Trip",
+      "amount": 3210.37,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0021",
+      "date": "2025-04-15",
+      "time": "18:58",
+      "description": "Payment to Uber Trip",
+      "payee": "Uber Trip",
+      "amount": 868.81,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0022",
+      "date": "2025-04-20",
+      "time": "09:57",
+      "description": "Payment to Caf\u00e9 Coffee Day",
+      "payee": "Caf\u00e9 Coffee Day",
+      "amount": 3006.97,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0023",
+      "date": "2025-04-22",
+      "time": "17:22",
+      "description": "Payment to Ola Trip",
+      "payee": "Ola Trip",
+      "amount": 2865.22,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0024",
+      "date": "2025-04-25",
+      "time": "20:10",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 1966.27,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0025",
+      "date": "2025-04-27",
+      "time": "15:14",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 2286.3,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0026",
+      "date": "2025-04-29",
+      "time": "19:31",
+      "description": "Payment to Caf\u00e9 Coffee Day",
+      "payee": "Caf\u00e9 Coffee Day",
+      "amount": 2803.42,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0027",
+      "date": "2025-05-01",
+      "time": "07:23",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 120000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1005-0028",
+      "date": "2025-05-02",
+      "time": "16:56",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1715.81,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0029",
+      "date": "2025-05-03",
+      "time": "08:04",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 33600.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0030",
+      "date": "2025-05-04",
+      "time": "19:26",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 2558.21,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0031",
+      "date": "2025-05-06",
+      "time": "17:04",
+      "description": "Payment to Ola Trip",
+      "payee": "Ola Trip",
+      "amount": 569.84,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0032",
+      "date": "2025-05-09",
+      "time": "21:53",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 1883.16,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0033",
+      "date": "2025-05-11",
+      "time": "13:32",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 2119.08,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0034",
+      "date": "2025-05-16",
+      "time": "09:10",
+      "description": "Payment to Ola Trip",
+      "payee": "Ola Trip",
+      "amount": 1885.64,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0035",
+      "date": "2025-05-18",
+      "time": "20:05",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 905.33,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0036",
+      "date": "2025-05-20",
+      "time": "09:40",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 3353.78,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0037",
+      "date": "2025-05-23",
+      "time": "16:37",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 462.99,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0038",
+      "date": "2025-05-25",
+      "time": "20:59",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 2242.01,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0039",
+      "date": "2025-05-27",
+      "time": "17:13",
+      "description": "Payment to Ola Trip",
+      "payee": "Ola Trip",
+      "amount": 422.1,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0040",
+      "date": "2025-05-30",
+      "time": "14:56",
+      "description": "Payment to Uber Trip",
+      "payee": "Uber Trip",
+      "amount": 2220.66,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0042",
+      "date": "2025-06-01",
+      "time": "11:29",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 1767.87,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0041",
+      "date": "2025-06-01",
+      "time": "17:34",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 120000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1005-0043",
+      "date": "2025-06-03",
+      "time": "08:44",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 33600.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0044",
+      "date": "2025-06-03",
+      "time": "10:21",
+      "description": "Payment to Uber Trip",
+      "payee": "Uber Trip",
+      "amount": 1542.33,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0045",
+      "date": "2025-06-06",
+      "time": "18:55",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 3035.98,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0046",
+      "date": "2025-06-08",
+      "time": "15:35",
+      "description": "Payment to Uber Trip",
+      "payee": "Uber Trip",
+      "amount": 588.07,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0047",
+      "date": "2025-06-10",
+      "time": "14:15",
+      "description": "Payment to Caf\u00e9 Coffee Day",
+      "payee": "Caf\u00e9 Coffee Day",
+      "amount": 1712.68,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0048",
+      "date": "2025-06-13",
+      "time": "20:39",
+      "description": "Payment to Ola Trip",
+      "payee": "Ola Trip",
+      "amount": 1122.21,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0049",
+      "date": "2025-06-15",
+      "time": "10:48",
+      "description": "Payment to Caf\u00e9 Coffee Day",
+      "payee": "Caf\u00e9 Coffee Day",
+      "amount": 2875.15,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0050",
+      "date": "2025-06-17",
+      "time": "14:01",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 1713.83,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0051",
+      "date": "2025-06-20",
+      "time": "10:37",
+      "description": "Payment to Uber Trip",
+      "payee": "Uber Trip",
+      "amount": 1843.24,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0052",
+      "date": "2025-06-22",
+      "time": "11:34",
+      "description": "Payment to Ola Trip",
+      "payee": "Ola Trip",
+      "amount": 1092.54,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0053",
+      "date": "2025-06-24",
+      "time": "18:23",
+      "description": "Payment to Ola Trip",
+      "payee": "Ola Trip",
+      "amount": 1593.61,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0054",
+      "date": "2025-06-27",
+      "time": "16:35",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 301.56,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0055",
+      "date": "2025-06-29",
+      "time": "15:28",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 1116.82,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0057",
+      "date": "2025-07-01",
+      "time": "09:06",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 2429.34,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0056",
+      "date": "2025-07-01",
+      "time": "19:35",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 120000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1005-0058",
+      "date": "2025-07-03",
+      "time": "13:23",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 33600.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0059",
+      "date": "2025-07-04",
+      "time": "19:09",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 2018.74,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0060",
+      "date": "2025-07-06",
+      "time": "07:02",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 1494.65,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0061",
+      "date": "2025-07-08",
+      "time": "09:38",
+      "description": "Payment to Amazon Retail",
+      "payee": "Amazon Retail",
+      "amount": 2843.29,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0062",
+      "date": "2025-07-13",
+      "time": "16:47",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 1217.08,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0063",
+      "date": "2025-07-15",
+      "time": "18:36",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 1276.85,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0064",
+      "date": "2025-07-18",
+      "time": "13:37",
+      "description": "Payment to Ola Trip",
+      "payee": "Ola Trip",
+      "amount": 1384.0,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0065",
+      "date": "2025-07-20",
+      "time": "16:30",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 3071.53,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0066",
+      "date": "2025-07-22",
+      "time": "18:03",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 2772.73,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0067",
+      "date": "2025-07-25",
+      "time": "09:52",
+      "description": "Payment to Caf\u00e9 Coffee Day",
+      "payee": "Caf\u00e9 Coffee Day",
+      "amount": 1906.18,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0068",
+      "date": "2025-07-27",
+      "time": "10:01",
+      "description": "Payment to Ola Trip",
+      "payee": "Ola Trip",
+      "amount": 2068.11,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0069",
+      "date": "2025-07-29",
+      "time": "13:32",
+      "description": "Payment to Uber Trip",
+      "payee": "Uber Trip",
+      "amount": 657.29,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0070",
+      "date": "2025-08-01",
+      "time": "19:39",
+      "description": "Salary credit",
+      "payee": "Employer Payroll",
+      "amount": 120000,
+      "channel": "NEFT",
+      "type": "credit"
+    },
+    {
+      "id": "CUST-1005-0072",
+      "date": "2025-08-03",
+      "time": "15:20",
+      "description": "Payment to Ola Trip",
+      "payee": "Ola Trip",
+      "amount": 2514.35,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0071",
+      "date": "2025-08-03",
+      "time": "20:54",
+      "description": "Rent payment",
+      "payee": "Landlord - Flat 4B",
+      "amount": 33600.0,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0073",
+      "date": "2025-08-08",
+      "time": "14:58",
+      "description": "Payment to Uber Trip",
+      "payee": "Uber Trip",
+      "amount": 1201.07,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0084",
+      "date": "2025-08-09",
+      "time": "02:14",
+      "description": "International wire transfer",
+      "payee": "Zenith Trading Ltd (Singapore)",
+      "amount": 312000.0,
+      "channel": "Wire",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0074",
+      "date": "2025-08-10",
+      "time": "16:30",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 1336.86,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0085",
+      "date": "2025-08-12",
+      "time": "03:02",
+      "description": "International wire transfer",
+      "payee": "Zenith Trading Ltd (Singapore)",
+      "amount": 98000.0,
+      "channel": "Wire",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0075",
+      "date": "2025-08-12",
+      "time": "10:19",
+      "description": "Payment to Caf\u00e9 Coffee Day",
+      "payee": "Caf\u00e9 Coffee Day",
+      "amount": 1084.67,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0076",
+      "date": "2025-08-15",
+      "time": "12:30",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 844.38,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0077",
+      "date": "2025-08-17",
+      "time": "16:43",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 1066.08,
+      "channel": "UPI",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0078",
+      "date": "2025-08-19",
+      "time": "11:02",
+      "description": "Payment to Uber Trip",
+      "payee": "Uber Trip",
+      "amount": 2891.56,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0079",
+      "date": "2025-08-22",
+      "time": "17:16",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 414.75,
+      "channel": "ATM",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0080",
+      "date": "2025-08-24",
+      "time": "21:35",
+      "description": "Payment to Caf\u00e9 Coffee Day",
+      "payee": "Caf\u00e9 Coffee Day",
+      "amount": 826.93,
+      "channel": "NetBanking",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0081",
+      "date": "2025-08-26",
+      "time": "10:03",
+      "description": "Payment to Caf\u00e9 Coffee Day",
+      "payee": "Caf\u00e9 Coffee Day",
+      "amount": 515.91,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0082",
+      "date": "2025-08-29",
+      "time": "07:06",
+      "description": "Payment to Croma Electronics",
+      "payee": "Croma Electronics",
+      "amount": 906.0,
+      "channel": "Card-POS",
+      "type": "debit"
+    },
+    {
+      "id": "CUST-1005-0083",
+      "date": "2025-08-31",
+      "time": "07:35",
+      "description": "Payment to Zomato",
+      "payee": "Zomato",
+      "amount": 1732.55,
+      "channel": "Card-POS",
+      "type": "debit"
+    }
+  ]
+}
