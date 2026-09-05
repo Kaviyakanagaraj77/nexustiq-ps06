@@ -7,12 +7,13 @@ from typing import Optional
 class Transaction:
     id: str
     date: str          # YYYY-MM-DD
-    time: str           # HH:MM
+    time: str          # HH:MM
     description: str
     payee: str
     amount: float
     channel: str
-    type: str           # "debit" | "credit"
+    type: str          # "debit" | "credit"
+    location: Optional[str] = None   # transaction initiation location
 
     @property
     def hour(self) -> int:
@@ -20,9 +21,15 @@ class Transaction:
 
     def to_dict(self) -> dict:
         return {
-            "id": self.id, "date": self.date, "time": self.time,
-            "description": self.description, "payee": self.payee,
-            "amount": self.amount, "channel": self.channel, "type": self.type,
+            "id": self.id,
+            "date": self.date,
+            "time": self.time,
+            "description": self.description,
+            "payee": self.payee,
+            "amount": self.amount,
+            "channel": self.channel,
+            "type": self.type,
+            "location": self.location,
         }
 
 
@@ -36,7 +43,7 @@ class CustomerBaseline:
     debit_p90: float
     known_payees: set
     known_channels: set
-    typical_hours: set          # hours-of-day seen at least twice historically
+    typical_hours: set
     transaction_count: int
 
 
@@ -46,8 +53,8 @@ class Finding:
     rule_name: str
     severity: str                 # "high" | "medium" | "low"
     transaction_ids: list = field(default_factory=list)
-    rationale: str = ""           # deterministic, factual, no LLM involved
-    metric: Optional[dict] = None  # the numbers behind the flag, for citation
+    rationale: str = ""
+    metric: Optional[dict] = None
 
     def to_dict(self) -> dict:
         return {

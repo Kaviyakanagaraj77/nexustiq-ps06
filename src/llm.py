@@ -14,13 +14,78 @@ import os
 import urllib.request
 import urllib.error
 
-GEMINI_MODEL = "gemini-2.0-flash"
-GEMINI_URL = (
-    f"https://generativelanguage.googleapis.com/v1beta/models/"
-    f"{GEMINI_MODEL}:generateContent"
-)
 
-SYSTEM_INSTRUCTIONS = """You are drafting notes for a human fraud investigator at a bank.
+def _load_env():
+    """Load variables from .env if present without external dependencies."""
+    env_path = os.path.join(os.path.dirname(__file__), "..", ".env")
+    if os.path.isfile(env_path):
+        try:
+            with open(env_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith("#") and "=" in line:
+                        k, v = line.split("=", 1)
+                        k = k.strip()
+                        v = v.strip().strip("'\"")
+                        if k and k not in os.environ:
+                            os.environ[k] = v
+        except Exception:
+            pass
+
+
+_load_env()
+
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+
+
+def _fallback_narrative(findings: list) -> dict:
+    """Deterministic, template-based narrative used when Gemini can't be reached."""
+    if not findings:
+        return {
+            "finding_narratives": [],
+            "priority_order": [],
+            "priority_reasoning": "",
+            "overall_summary": "No transaction in this history triggered any of the "
+                                "configured risk rules. Nothing here needs an investigator's time.",
+            "narrative_source": "fallback_template",
+        }
+    narratives = []
+    for f in findings:
+        rationale = f.get("rationale") or f.get("explanation", "")
+        narratives.append({
+            "rule_id": f["rule_id"],
+            "narrative": rationale + f" Transactions: {', '.join(f.get('transaction_ids', []))}.",
+        })
+    order = [f["rule_id"] for f in sorted(findings, key=lambda x: {"high": 0, "medium": 1, "low": 2}.get(x.get("severity", "low"), 99))]
+    return {
+        "finding_narratives": narratives,
+        "priority_order": order,
+        "priority_reasoning": "Ordered by rule severity (high before medium before low) "
+                               "since the narrative model was unavailable.",
+        "overall_summary": f"{len(findings)} finding(s) triggered against this customer's own history. "
+                            f"Review in the listed order.",
+        "narrative_source": "fallback_template",
+    }
+
+
+def generate_investigation_narrative(customer_id: str, customer_name: str, findings: list) -> dict:
+    """
+    findings: list of Finding dict results.
+    Returns a dict with finding_narratives, priority_order, priority_reasoning,
+    overall_summary, and narrative_source ("gemini" or "fallback_template").
+    """
+    _load_env()
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        return _fallback_narrative(findings)
+
+    payload = {
+        "customer_id": customer_id,
+        "customer_name": customer_name,
+        "findings": findings,
+    }
+
+    system_instructions = """You are drafting notes for a human fraud investigator at a bank.
 You are given a JSON list of findings that a deterministic rule engine already
 produced from one customer's transaction history, each with the exact transaction
 IDs, a factual rationale, and supporting metrics.
@@ -42,73 +107,43 @@ Rules you must follow exactly:
 {"finding_narratives": [{"rule_id": "...", "narrative": "..."}], "priority_order": ["rule_id1", "rule_id2"], "priority_reasoning": "...", "overall_summary": "..."}
 """
 
-
-def _fallback_narrative(findings: list) -> dict:
-    """Deterministic, template-based narrative used when Gemini can't be reached."""
-    if not findings:
-        return {
-            "finding_narratives": [],
-            "priority_order": [],
-            "priority_reasoning": "",
-            "overall_summary": "No transaction in this history triggered any of the "
-                                "configured risk rules. Nothing here needs an investigator's time.",
-            "narrative_source": "fallback_template",
-        }
-    narratives = []
-    for f in findings:
-        narratives.append({
-            "rule_id": f["rule_id"],
-            "narrative": f["rationale"] + f" Transactions: {', '.join(f['transaction_ids'])}.",
-        })
-    order = [f["rule_id"] for f in sorted(findings, key=lambda x: {"high": 0, "medium": 1, "low": 2}[x["severity"]])]
-    return {
-        "finding_narratives": narratives,
-        "priority_order": order,
-        "priority_reasoning": "Ordered by rule severity (high before medium before low) "
-                               "since the narrative model was unavailable.",
-        "overall_summary": f"{len(findings)} finding(s) triggered against this customer's own history. "
-                            f"Review in the listed order.",
-        "narrative_source": "fallback_template",
-    }
-
-
-def generate_investigation_narrative(customer_id: str, customer_name: str, findings: list) -> dict:
-    """
-    findings: list of Finding.to_dict() results.
-    Returns a dict with finding_narratives, priority_order, priority_reasoning,
-    overall_summary, and narrative_source ("gemini" or "fallback_template").
-    """
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        return _fallback_narrative(findings)
-
-    payload = {
-        "customer_id": customer_id,
-        "customer_name": customer_name,
-        "findings": findings,
-    }
     body = {
-        "system_instruction": {"parts": [{"text": SYSTEM_INSTRUCTIONS}]},
+        "system_instruction": {"parts": [{"text": system_instructions}]},
         "contents": [{"role": "user", "parts": [{"text": json.dumps(payload)}]}],
         "generationConfig": {"temperature": 0.2, "response_mime_type": "application/json"},
     }
 
     try:
+        model_name = os.environ.get("GEMINI_MODEL", GEMINI_MODEL)
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
         req = urllib.request.Request(
-            f"{GEMINI_URL}?key={api_key}",
+            url,
             data=json.dumps(body).encode("utf-8"),
             headers={"Content-Type": "application/json"},
             method="POST",
         )
         with urllib.request.urlopen(req, timeout=25) as resp:
             raw = json.loads(resp.read().decode("utf-8"))
-        text = raw["candidates"][0]["content"]["parts"][0]["text"]
+        text = raw["candidates"][0]["content"]["parts"][0]["text"].strip()
+
+        # Safely handle markdown code fences if present
+        if text.startswith("```json"):
+            text = text[7:]
+        elif text.startswith("```"):
+            text = text[3:]
+        if text.endswith("```"):
+            text = text[:-3]
+        text = text.strip()
+
         parsed = json.loads(text)
+        if not isinstance(parsed, dict):
+            raise ValueError("Gemini response is not a valid JSON object")
+
+        parsed.setdefault("finding_narratives", [])
+        parsed.setdefault("priority_order", [])
+        parsed.setdefault("priority_reasoning", "")
+        parsed.setdefault("overall_summary", "")
         parsed["narrative_source"] = "gemini"
-        # sanity check: every transaction id referenced must exist in the input
-        allowed_ids = {tid for f in findings for tid in f["transaction_ids"]}
-        for fn in parsed.get("finding_narratives", []):
-            pass  # narrative text is free-form prose; hard filtering happens at render time if needed
         return parsed
     except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError,
             KeyError, ValueError, json.JSONDecodeError) as e:

@@ -9,9 +9,10 @@
       "time": "08:50",
       "description": "Salary credit",
       "payee": "Employer Payroll",
-      "amount": 45000,
+      "amount": 45000.0,
       "channel": "NEFT",
-      "type": "credit"
+      "type": "credit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0002",
@@ -21,7 +22,8 @@
       "payee": "Airtel Postpaid",
       "amount": 2330.57,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0003",
@@ -31,7 +33,8 @@
       "payee": "Landlord - Flat 4B",
       "amount": 12600.0,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0004",
@@ -41,7 +44,8 @@
       "payee": "Croma Electronics",
       "amount": 1485.75,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0005",
@@ -51,7 +55,8 @@
       "payee": "Amazon Retail",
       "amount": 1403.91,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0006",
@@ -61,7 +66,8 @@
       "payee": "BookMyShow",
       "amount": 2936.44,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0007",
@@ -71,7 +77,8 @@
       "payee": "Amazon Retail",
       "amount": 2869.43,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0008",
@@ -81,7 +88,8 @@
       "payee": "Airtel Postpaid",
       "amount": 559.47,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0009",
@@ -91,7 +99,8 @@
       "payee": "Airtel Postpaid",
       "amount": 322.34,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0010",
@@ -101,7 +110,8 @@
       "payee": "Local Kirana Store",
       "amount": 1849.83,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0011",
@@ -111,7 +121,8 @@
       "payee": "BookMyShow",
       "amount": 1322.88,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0012",
@@ -121,7 +132,8 @@
       "payee": "Apollo Pharmacy",
       "amount": 2854.19,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0013",
@@ -131,7 +143,8 @@
       "payee": "Airtel Postpaid",
       "amount": 1045.95,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0014",
@@ -141,7 +154,8 @@
       "payee": "Amazon Retail",
       "amount": 1325.93,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0016",
@@ -151,7 +165,8 @@
       "payee": "Apollo Pharmacy",
       "amount": 2632.25,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0015",
@@ -159,9 +174,10 @@
       "time": "16:42",
       "description": "Salary credit",
       "payee": "Employer Payroll",
-      "amount": 45000,
+      "amount": 45000.0,
       "channel": "NEFT",
-      "type": "credit"
+      "type": "credit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0017",
@@ -171,7 +187,8 @@
       "payee": "Landlord - Flat 4B",
       "amount": 12600.0,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0018",
@@ -181,7 +198,8 @@
       "payee": "Croma Electronics",
       "amount": 1292.0,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0019",
@@ -191,7 +209,8 @@
       "payee": "Local Kirana Store",
       "amount": 2147.35,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0020",
@@ -201,7 +220,8 @@
       "payee": "BookMyShow",
       "amount": 2407.8,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0021",
@@ -211,7 +231,8 @@
       "payee": "Local Kirana Store",
       "amount": 1630.85,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0022",
@@ -221,7 +242,8 @@
       "payee": "Amazon Retail",
       "amount": 1590.21,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0023",
@@ -231,7 +253,8 @@
       "payee": "Local Kirana Store",
       "amount": 2384.89,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0024",
@@ -241,7 +264,8 @@
       "payee": "Apollo Pharmacy",
       "amount": 1159.75,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0025",
@@ -251,7 +275,8 @@
       "payee": "Amazon Retail",
       "amount": 1249.21,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0026",
@@ -261,7 +286,8 @@
       "payee": "Apollo Pharmacy",
       "amount": 1423.69,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0027",
@@ -271,7 +297,8 @@
       "payee": "Amazon Retail",
       "amount": 391.45,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0028",
@@ -281,7 +308,8 @@
       "payee": "BookMyShow",
       "amount": 3038.07,
       "channel": "ATM",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0029",
@@ -289,9 +317,10 @@
       "time": "18:40",
       "description": "Salary credit",
       "payee": "Employer Payroll",
-      "amount": 45000,
+      "amount": 45000.0,
       "channel": "NEFT",
-      "type": "credit"
+      "type": "credit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0030",
@@ -301,7 +330,8 @@
       "payee": "BookMyShow",
       "amount": 1506.86,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0031",
@@ -311,7 +341,8 @@
       "payee": "Landlord - Flat 4B",
       "amount": 12600.0,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0032",
@@ -321,7 +352,8 @@
       "payee": "Amazon Retail",
       "amount": 445.24,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0033",
@@ -331,7 +363,8 @@
       "payee": "Local Kirana Store",
       "amount": 413.47,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0034",
@@ -341,7 +374,8 @@
       "payee": "Apollo Pharmacy",
       "amount": 405.87,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0035",
@@ -351,7 +385,8 @@
       "payee": "Amazon Retail",
       "amount": 1326.18,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0036",
@@ -361,7 +396,8 @@
       "payee": "Apollo Pharmacy",
       "amount": 731.22,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0037",
@@ -371,7 +407,8 @@
       "payee": "Apollo Pharmacy",
       "amount": 3336.83,
       "channel": "ATM",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0038",
@@ -381,7 +418,8 @@
       "payee": "Local Kirana Store",
       "amount": 1653.83,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0039",
@@ -391,7 +429,8 @@
       "payee": "Croma Electronics",
       "amount": 378.76,
       "channel": "ATM",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0040",
@@ -401,7 +440,8 @@
       "payee": "Local Kirana Store",
       "amount": 338.18,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0041",
@@ -411,7 +451,8 @@
       "payee": "BookMyShow",
       "amount": 1385.27,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0043",
@@ -421,7 +462,8 @@
       "payee": "Croma Electronics",
       "amount": 2094.1,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0042",
@@ -429,9 +471,10 @@
       "time": "16:38",
       "description": "Salary credit",
       "payee": "Employer Payroll",
-      "amount": 45000,
+      "amount": 45000.0,
       "channel": "NEFT",
-      "type": "credit"
+      "type": "credit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0045",
@@ -441,7 +484,8 @@
       "payee": "Amazon Retail",
       "amount": 2176.77,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0044",
@@ -451,7 +495,8 @@
       "payee": "Landlord - Flat 4B",
       "amount": 12600.0,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0046",
@@ -461,7 +506,8 @@
       "payee": "Amazon Retail",
       "amount": 3440.99,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0047",
@@ -471,7 +517,8 @@
       "payee": "Apollo Pharmacy",
       "amount": 2520.53,
       "channel": "ATM",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0048",
@@ -481,7 +528,8 @@
       "payee": "Amazon Retail",
       "amount": 1399.05,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0049",
@@ -491,7 +539,8 @@
       "payee": "Airtel Postpaid",
       "amount": 2152.92,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0050",
@@ -501,7 +550,8 @@
       "payee": "Airtel Postpaid",
       "amount": 1444.99,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0051",
@@ -511,7 +561,8 @@
       "payee": "Local Kirana Store",
       "amount": 3075.49,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0052",
@@ -521,7 +572,8 @@
       "payee": "Amazon Retail",
       "amount": 1189.28,
       "channel": "ATM",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0053",
@@ -531,7 +583,8 @@
       "payee": "BookMyShow",
       "amount": 1187.1,
       "channel": "ATM",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0054",
@@ -541,7 +594,8 @@
       "payee": "Apollo Pharmacy",
       "amount": 2394.89,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0055",
@@ -551,7 +605,8 @@
       "payee": "Amazon Retail",
       "amount": 211.07,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0056",
@@ -561,7 +616,8 @@
       "payee": "Croma Electronics",
       "amount": 793.22,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0057",
@@ -569,9 +625,10 @@
       "time": "11:54",
       "description": "Salary credit",
       "payee": "Employer Payroll",
-      "amount": 45000,
+      "amount": 45000.0,
       "channel": "NEFT",
-      "type": "credit"
+      "type": "credit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0058",
@@ -581,7 +638,8 @@
       "payee": "Local Kirana Store",
       "amount": 2732.43,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0059",
@@ -591,7 +649,8 @@
       "payee": "Landlord - Flat 4B",
       "amount": 12600.0,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0060",
@@ -601,7 +660,8 @@
       "payee": "Local Kirana Store",
       "amount": 1412.01,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0061",
@@ -611,7 +671,8 @@
       "payee": "Local Kirana Store",
       "amount": 2860.3,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0062",
@@ -621,7 +682,8 @@
       "payee": "Amazon Retail",
       "amount": 2415.82,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0063",
@@ -631,7 +693,8 @@
       "payee": "Airtel Postpaid",
       "amount": 2775.73,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0064",
@@ -641,7 +704,8 @@
       "payee": "Croma Electronics",
       "amount": 3178.31,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0085",
@@ -649,9 +713,10 @@
       "time": "18:48",
       "description": "Transfer to Kavita Enterprises",
       "payee": "Kavita Enterprises",
-      "amount": 42000,
+      "amount": 42000.0,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0086",
@@ -659,9 +724,10 @@
       "time": "12:08",
       "description": "Transfer to Kavita Enterprises",
       "payee": "Kavita Enterprises",
-      "amount": 38500,
+      "amount": 38500.0,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0087",
@@ -669,9 +735,10 @@
       "time": "07:22",
       "description": "Transfer to Kavita Enterprises",
       "payee": "Kavita Enterprises",
-      "amount": 45000,
+      "amount": 45000.0,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0088",
@@ -679,9 +746,10 @@
       "time": "15:21",
       "description": "Transfer to Kavita Enterprises",
       "payee": "Kavita Enterprises",
-      "amount": 31000,
+      "amount": 31000.0,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0089",
@@ -689,9 +757,10 @@
       "time": "20:41",
       "description": "Transfer to Kavita Enterprises",
       "payee": "Kavita Enterprises",
-      "amount": 47500,
+      "amount": 47500.0,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0090",
@@ -699,9 +768,10 @@
       "time": "09:53",
       "description": "Transfer to Kavita Enterprises",
       "payee": "Kavita Enterprises",
-      "amount": 39900,
+      "amount": 39900.0,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0065",
@@ -711,7 +781,8 @@
       "payee": "Amazon Retail",
       "amount": 2756.72,
       "channel": "ATM",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0066",
@@ -721,7 +792,8 @@
       "payee": "Local Kirana Store",
       "amount": 613.64,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0067",
@@ -731,7 +803,8 @@
       "payee": "Amazon Retail",
       "amount": 2007.71,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0068",
@@ -741,7 +814,8 @@
       "payee": "BookMyShow",
       "amount": 1104.96,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0069",
@@ -749,9 +823,10 @@
       "time": "09:53",
       "description": "Salary credit",
       "payee": "Employer Payroll",
-      "amount": 45000,
+      "amount": 45000.0,
       "channel": "NEFT",
-      "type": "credit"
+      "type": "credit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0070",
@@ -761,7 +836,8 @@
       "payee": "Apollo Pharmacy",
       "amount": 2885.96,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0072",
@@ -771,7 +847,8 @@
       "payee": "Amazon Retail",
       "amount": 939.86,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0071",
@@ -781,7 +858,8 @@
       "payee": "Landlord - Flat 4B",
       "amount": 12600.0,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0073",
@@ -791,7 +869,8 @@
       "payee": "BookMyShow",
       "amount": 2961.24,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0074",
@@ -801,7 +880,8 @@
       "payee": "Amazon Retail",
       "amount": 3223.28,
       "channel": "ATM",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0075",
@@ -811,7 +891,8 @@
       "payee": "Airtel Postpaid",
       "amount": 1721.52,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0076",
@@ -821,7 +902,8 @@
       "payee": "Apollo Pharmacy",
       "amount": 2947.13,
       "channel": "ATM",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0077",
@@ -831,7 +913,8 @@
       "payee": "Amazon Retail",
       "amount": 558.19,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0078",
@@ -841,7 +924,8 @@
       "payee": "Croma Electronics",
       "amount": 360.4,
       "channel": "ATM",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0079",
@@ -851,7 +935,8 @@
       "payee": "Local Kirana Store",
       "amount": 2076.41,
       "channel": "Card-POS",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0080",
@@ -861,7 +946,8 @@
       "payee": "Amazon Retail",
       "amount": 955.89,
       "channel": "ATM",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0081",
@@ -871,7 +957,8 @@
       "payee": "Local Kirana Store",
       "amount": 3415.09,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0082",
@@ -881,7 +968,8 @@
       "payee": "Local Kirana Store",
       "amount": 2006.41,
       "channel": "ATM",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0083",
@@ -891,7 +979,8 @@
       "payee": "Croma Electronics",
       "amount": 3436.48,
       "channel": "NetBanking",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     },
     {
       "id": "CUST-1004-0084",
@@ -901,7 +990,8 @@
       "payee": "BookMyShow",
       "amount": 1305.09,
       "channel": "UPI",
-      "type": "debit"
+      "type": "debit",
+      "location": "Chennai"
     }
   ]
 }
